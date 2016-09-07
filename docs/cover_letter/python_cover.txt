@@ -1,0 +1,7 @@
+I am an avid Python developer (5+ years experience) looking to expand my skills to more web frameworks. Currently, I have worked in JavaScript frameworks such as AngularJS and jQuery, as well as developing data abstraction layers in Python for MySQL relational databases. I have also worked with messaging frameworks like ZeroMQ and am always up for learning more technologies. Nothing is too difficult for me to learn! I utilize Python in daily life to help make organization and other computation tasks more efficient.
+
+I have done some work with audio recognition frameworks in C# as well as machine learning algorithms in Python. I have taken classes in machine learning, pattern recognition, and multimedia systems (such as image and speech recognition) and am always anxious to learn more in this field. 
+
+I have a strong knowledge of Linux and have worked in CentOS, Ubuntu, Mint, and Kali blends. I also own a Mac OS X machine and love to utilize Bash to help with all sorts of tasks. 
+
+I hope to hear from you soon and look forward to showing you what I can do to help your team!

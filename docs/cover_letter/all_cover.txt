@@ -1,0 +1,13 @@
+I am a Python developer at heart, but I have had experience in a vast array of different technologies and fields. I have worked in designing specifications and writing documentation in LaTeX; creating back-end solutions for web frameworks in Python and ZeroMQ; designing and developing database solutions in MySQL and a data abstraction layer in Python for that database; creating front-end solutions to web problems in AngularJS, JavaScript, and jQuery; and working in a security consultant firm to discover and analyze computer security flaws.
+
+I have also done quite a bit of work in C# and ASP.NET with Visual Studio as well. I built my graduate portfolio in ASP.NET (blairgemmer.com), as well as a few school projects. 2 of the most notable school projects were an image recognition software (using content-based image recognition) and a voice recognition software (utilizing the Nuance Dragon API). 
+
+My favorite things in life are solving difficult puzzles and learning new technologies. I prefer to take a job where I am learning something new and solving something challenging every day!
+
+I have a strong knowledge of Linux and have worked in CentOS, Ubuntu, Mint, and Kali blends. I also own a Mac OS X machine and love to utilize Bash to help with all sorts of tasks. 
+
+I have also been a Windows user most of my life, so I am very comfortable with Windows technology.
+
+I have built a few Android applications, but again I would always love to learn more in iOS and Android development! 
+
+My main love will always be Python, but I can quickly learn and adapt to any field or technology as necessary. 

@@ -1,4 +1,5 @@
-# COVER SHEET (best viewed on http://dillinger.io/)
+# COVER SHEET 
+<!-- best viewed on http://dillinger.io/) -->
 ## COMPANY
 
 ### Things I want in a team or project
@@ -26,7 +27,7 @@
 ### Things I want in a company
 	1. Focus on the customer and their requirements    
         - User-centered design principles to ensure customer satisfaction and sellability of product
-        - Iterative, test-driven design principles to ensure zero (or low) defect rate, which builds a better more stable product and ensures sellability of product and overall customer satisfaction
+        - Iterative, test-driven design principles to ensure zero (or low) defect rate, which ensures stability and sellability of product and overall customer satisfaction
 	2. Focus on the employees' needs and resources
         - Team building exercises to strengthen the team
         - Good benefits package to ensure the health of the team    
@@ -42,21 +43,27 @@
     - Ability to develop good strategies for accomplishing tasks if given a generalized task list
     - Ability to learn new technologies quickly and become an expert in a short amount of time
     - Ability to research and develop new technologies and proofs of concept with limited foreknowledge of the ideas
+    - Ability to work with quick turnarounds on projects with short deadlines
     - Ability to adapt to any type of work environment. Have worked as a labourer, I.T., consulting, web development, mobile applications, desktop environments (Mac, Linux, or Windows), and specification development. I work well in a team or alone, in an office or remotely.
 
 #### Specific Skills
     - Have used Python for 5+ years, at least 3 have been on a regular basis. 
         - I love to find simple yet elegant solutions to common problems in my own life.
-    - Good at LaTex, love to make beautiful, professional documentation
-    - Have found a new love for markdown as well
-    - Love scripting languages in general, would love to learn DART and GO (they're on my list, but haven't had time or a reason until now)
-    - Learned to love Mac OS X and most blends of Linux
+    - Good at LaTeX, love to make beautiful, professional documentation
+        - Have found a new love for markdown as well    
+    - Love scripting languages in general, recently learning JavaScript frameworks like jQuery and AngularJS, as well as delving into Node.js and php
+        - I would love to learn other scripting languages like Dart or Go and am always open to new technologies
+    - Have learned my way through a lot of RPC and message handling techniques (language agnostic), mostly using ØMQ (zero mq) and socket.io between JavaScript, Python, and C++ stacks.
+    - Consider myself a learned 'nix fan. Love Mac OS X and most blends of Linux, also can manage myself around Wind0ze if forced to (built portfolio website in ASP.NET and have built many projects in C# in Visual Studio)
+    - Can find my way around source control repositories without any difficulty. 
+        - Have a few managed repos on GitHub and a few local Mercurial repos for other projects
+    - Implementing test-driven, user-centered design principles by creating use cases and functional requirements and holding regular design critiques to maintain design focus and usability.
 
 #### Human Skills
     - Good temperment and ability to resolve a solution quickly without a heated argument
-    - Good humour, good sense of culture (films, music, television)
-    - Ability to create energy in a team
-    - Ability to empathize with other members of a team and to listen to their difficulties
+    - Good humour, good sense of culture (films, music, television, and video games)
+    - Ability to create positive energy in a team
+    - Ability to empathize with other members of a team, to listen to any difficulties, and find a solution
 
 
 ### Additional Resources

@@ -1,0 +1,13 @@
+I am an avid developer (Python is my language of choice for most projects) and have been developing software for 8+ years. A lot of my work has been freelance although I have recently been finding work in a few startups to develop more skills and learn new technologies. My favorite projects have been Matlab and Python simulations of physics and biological phenomena, pattern recognition projects (such as image and voice recognition), and writing a data abstraction layer in Python for a MySQL database that interacted through ZeroMQ with a JavaScript front-end and C++ backend tool manufacturing framework.
+
+I have done quite a bit of work in C# and ASP.NET with Visual Studio as well. I built my graduate portfolio in ASP.NET (blairgemmer.com), as well as a few school projects. 2 of the most notable school projects were an image recognition software (using content-based image recognition) and a voice recognition software (utilizing the Nuance Dragon API). 
+
+My favorite things in life are solving difficult puzzles and learning new technologies. I prefer to take a job where I am learning something new and solving something challenging every day!
+
+I have a strong knowledge of Linux and have worked in CentOS, Ubuntu, Mint, and Kali blends. I also own a Mac OS X machine and love to utilize Bash to help with all sorts of tasks. 
+
+I have also been a Windows user most of my life, so I am very comfortable with Windows technology.
+
+I have built a few Android applications, but again I would always love to learn more in iOS and Android development! 
+
+I hope to hear from you soon and look forward to showing you what I can do to help your team!
