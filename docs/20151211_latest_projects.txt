@@ -1,0 +1,21 @@
+TrueStream - Creates usable content out of streaming data
+
+Technologies: Python, MySQL, Truestream, D3, LaTeX, Trello, Mercurial
+
+---
+
+TweetyPy - Python wrapper implementation for the Twitter API
+
+Technologies: Python, Requests, BitBucket/GitHub
+
+---
+
+Movie-Filename-Fixer - Takes poorly formatted movie title data and creates well-formed titles based on the IMdb API (using OMdb's open source IMdb implementation)
+
+Technologies: Python, Requests, BitBucket/GitHub
+
+---
+
+Dotmos - Searches many social media providers and extracts data from their API or via a web scraper
+
+Technologies: Python-Django, ReactJS, MariaDB (mysql open source fork), Trello, BitBucket

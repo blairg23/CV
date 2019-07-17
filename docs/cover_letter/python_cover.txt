@@ -5,3 +5,12 @@ I have done some work with audio recognition frameworks in C# as well as machine
 I have a strong knowledge of Linux and have worked in CentOS, Ubuntu, Mint, and Kali blends. I also own a Mac OS X machine and love to utilize Bash to help with all sorts of tasks. 
 
 I hope to hear from you soon and look forward to showing you what I can do to help your team!
+
+
+---
+
+Hi, my name is Blair Gemmer and I found your ad for a Python Backend Engineer on StackOverflow and it sounded like a neat opportunity! I am an avid Python developer with 6 years of experience. I'm very adamant about everything Python, including web frameworks such as Django or Flask. I've even dabbled in CherryPy, though it didn't fit into my use cases as much as Flask. I've had quite a bit of experience using Requests to perform REST API or FTP requests. My ideal environment is a solid team using the Agile methodology (Scrum is the framework I'm most familiar with) and comms over Slack. I have also done some front-end work with React.js, although I'm not super familiar with it yet (I always love to learn and love a challenge, however). I accept challenges and enjoy working in technology I'm not familiar with as well as my tried and true territory.
+
+I prefer remote work although I might be coaxed into relocating if it was the right area and there was a relocation budget.
+
+As requested, you will find my CV attached. Thanks for your time!

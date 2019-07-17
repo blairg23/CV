@@ -1,0 +1,10 @@
+
+I've been working on a couple projects recently. One is ongoing work on dotmos (https://dotmos.com), which is a social network discovery platform that we're hoping to build out into a more fully-featured, robust solution for social network search and discovery.
+
+Another I'm building is a dashboard for business intelligence for Tour Groups through 3 Rivers Marketing. Mostly REST API calls, data analysis and acquisition, and charts.js visualization.
+
+Other than that, I mostly work on my own pet projects, like my movie-file-renamer Python script, NutFlux (a Netflix clone for local movie files), and various other API and webpage scrapers.
+
+Always love getting outdoors and hiking, biking, and longboarding with my 3 dogs, Indy Bindy, KushyKush, and Boss Co. Baked Beans.
+
+Have a great weekend!
