@@ -324,7 +324,7 @@ automating workflows and delivering actionable business analytics.}
 	\item \textbf{DevOps \& Cloud}
 		\begin{enumerate}[-]
 			\item Atlassian (Jira, Confluence, Statuspage, Bitbucket Pipelines), DeployBot
-			\item Azure, Google Cloud Platform
+			\item AWS, Azure, Google Cloud Platform
 			\item Docker, Kubernetes
 			\item Bitbucket / GitHub (GIT), Mercurial
 		\end{enumerate}
@@ -487,42 +487,54 @@ A list of some of my favorite personal and graduate projects, not specifically l
 				\textbf{Source Code:} \href{https://github.com/blairg23/Particle-Simulator}{\texttt{github.com/blairg23/Particle-Simulator}}\\
 		\end{enumerate}
 
-	\item \large{Personal Projects}
+	\item \large{Personal Projects \& Hobbies}
 		\small
 		\begin{enumerate}[]
-			\item \textbf{bookmarks-manager}\\
-				Bookmarks Tagr\textsuperscript{\textcopyright} is a full RESTful API for importing your Chrome bookmarks and creating a highly organized network graph of bookmarks and tags. Notable features include smart tagging, social sharing, up/down voting, and reporting bad links for removal.
-			\item \textbf{BetterPassword}\\
-				A short script to turn an easily remembered password into a large hashed password for better security in online applications.
-			\item \textbf{create-api-wrappers}\\
-				Reynold's RESTful Wrapper\textsuperscript{\textcopyright} is an application that creates API wrapper methods in Python from a list of API endpoints and their valid parameters.
-			\item \textbf{delete-files}\\
-				A short script to recursively remove all files within a given directory, given a regex match.
-			\item \textbf{expense-analysis}\\
-				Expensive\textsuperscript{\textcopyright} is an application that takes CSV files as input and builds a database of financial transactions to perform financial data analysis tasks, such as analyzing spending habits to build a budget.
-			\item \textbf{files-in-folder}\\
-				An application designed to perform an md5 hash-wise diff on files in two given directories. Outputs the contents of the folder (filenames and hash) and the diff as a CSV.
-			\item \textbf{images-from-url}\\
-				An application designed to scrape images off any given URL or REST API. On the last commit, it supported Imgur, Instagram, Tumblr, and any raw HTML website.
-			\item \textbf{Nutflux}\\
-				A suite of small applications centered around multimedia consumption, Nutflux\textsuperscript{\textcopyright} started as a Netflix clone for consuming your local multimedia collection. Now this suite contains multiple utilities for create a better multimedia experience.
-				\begin{enumerate}[]
-					\item \textbf{movie-decider}\\
-						An application that takes your current multimedia collection and helps decide what you want to watch based on a series of mood questions.
-					\item \textbf{movie-file-fixer}\\
-						An application for formatting poorly formatted movie filenames, adding a movie poster from IMDb, and adding subtitles based on the md5 hash of the file. Recent commits were a huge refactor to add test automations, unit tests, and CI/CD pipeline.
-					\item \textbf{movie-tv-show-reminder}\\
-						An application that reminders you when your favorite shows have new episodes or a new season.
-					\item \textbf{movie-viewer}\\
-						A Netflix clone that uses the Plex API to showcase your multimedia collection.
-					\item \textbf{music-file-fixer}\\
-						Like movie-file-fixer, but for music files.
+			\normalsize
+			\item \textbf{Automation \& Scripting:}
+			\small
+				\begin{enumerate}[-]
+					\item \textbf{BetterPassword}: A script to convert easily remembered passwords into secure, hashed passwords for improved online security.
+					\item \textbf{delete-files}: Recursively removes files within a directory matching a given regex pattern.
+					\item \textbf{\href{https://github.com/blairg23/rename-images-to-datetime}{rename-images-to-datetime}}: Renames image files based on their creation datetime to ensure uniqueness.
+					\item \textbf{\href{https://github.com/blairg23/files-in-folder}{files-in-folder}}: Compares two directories using MD5 hashes, outputting differences in CSV format.
 				\end{enumerate}
-			\item \textbf{rename-images-to-datetime}\\
-				A short script to rename image files to a datetime format based on the datetime the image was produced. Can also format from one datetime format to another. Many cameras name their files like DSC\_0001.png, even if that file has already been created. This script's objective was to create unique files based on that unique datetime format.
-			\item \textbf{TweetyPy}\\
-				A Python Twitter client with a wrapper method for every Twitter REST API endpoint. Powered by \textbf{Reynold's RESTful Wrapper\textsuperscript{\textcopyright}}.
-		\end{enumerate}
+			
+			\normalsize
+			\item \textbf{Data Processing \& API Wrappers:}
+			\small
+				\begin{enumerate}[-]
+					\item \textbf{Bookmarks Manager}: A RESTful API to import Chrome bookmarks, tag them smartly, enable social sharing, and manage link quality.
+					\item \textbf{\href{https://github.com/blairg23/expense-analysis}{Expensive}}: Parses CSV files to build a financial transaction database for spending analysis and budgeting.
+					\item \textbf{\href{https://github.com/blairg23/create-api-wrappers}{create-api-wrappers}}: Generates Python wrapper methods from API endpoint lists and parameters.
+					\item \textbf{\href{https://github.com/blairg23/TweetyPy}{TweetyPy}}: A Python Twitter client with a wrapper method for every Twitter REST API endpoint. Powered by \textbf{Reynold's RESTful Wrapper\textsuperscript{\textcopyright}}.
+					\item \textbf{\href{https://github.com/blairg23/omdbpy}{omdbpy}}: A minimalist Python wrapper for the Open Movie Database (OMDb) API.
+				\end{enumerate}
+\clearpage
+
+			\normalsize
+			\item \textbf{Web Scraping \& Multimedia:}
+			\small
+				\begin{enumerate}[-]
+					\item \textbf{\href{https://github.com/blairg23/images-from-url}{images-from-url}}: Scrapes images from given URLs or REST APIs, supporting platforms like Imgur, Instagram, and Tumblr.
+					\item \textbf{Nutflux}: A suite of small applications centered around multimedia consumption, Nutflux\textsuperscript{\textcopyright} started as a Netflix clone for consuming your local multimedia collection. Now this suite contains multiple utilities for create a better multimedia experience.
+						\begin{enumerate}[]
+							\item \textbf{movie-decider}\\
+								An application that takes your current multimedia collection and helps decide what you want to watch based on a series of mood questions.
+							\item  \textbf{\href{https://github.com/blairg23/movie-file-fixer}{movie-file-fixer}}\\
+								An application for formatting poorly formatted movie filenames, adding a movie poster from IMDb, and adding subtitles based on the md5 hash of the file. Recent commits were a huge refactor to add test automations, unit tests, and CI/CD pipeline.
+							\item \textbf{movie-tv-show-reminder}\\
+								An application that reminders you when your favorite shows have new episodes or a new season.
+							\item \textbf{movie-viewer}\\
+								A Netflix clone that uses the Plex API to showcase your multimedia collection.
+							\item \textbf{music-file-fixer}\\
+								Like movie-file-fixer, but for music files.
+						\end{enumerate}
+				\end{enumerate}
+	
+	\end{enumerate}
+			These projects reflect my curiosity, versatility, and dedication to continuous learning and innovation. Most source code is available on \href{https://github.com/blairg23}{GitHub @blairg23}.
+
 \end{enumerate}
 
 \newpage
