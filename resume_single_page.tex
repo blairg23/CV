@@ -1,0 +1,129 @@
+% Resume.tex - Condensed 1-page, 2-column version
+% Blair G. — Software Engineer / Product Manager
+
+\documentclass[9pt]{article}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage[hidelinks]{hyperref}
+\usepackage{ragged2e}   % add to preamble
+
+% Disable hyphenation
+\usepackage[none]{hyphenat}
+\usepackage{fancyhdr} %%For headers/footers
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\raggedbottom
+\pagenumbering{gobble}
+
+\titleformat{\section}{\Large\bfseries}{}{0em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+
+\begin{document}
+
+% -------------------- HEADER --------------------
+%\begin{center}
+%    {\LARGE \textbf{Blair Gemmer}} \\[0.25em]
+%    \href{mailto:blair.gemmer@gmail.com}{blair.gemmer@gmail.com} $\vert$ 406.253.4962 $\vert$ Missoula, MT \\
+%    \href{https://blairgemmer.com}{blairgemmer.com} $\vert$ \href{https://linkedin.com/in/blairgemmer}{linkedin.com/in/blairgemmer} $\vert$ \href{https://github.com/blairg23}{github.com/blairg23}
+%\end{center}
+
+\pagestyle{fancy}           % ← this makes the header/footer appear
+% \thispagestyle{fancy}     % also add this if the résumé stays one-page
+\renewcommand{\footrulewidth}{1pt}
+
+%Header / Footer information:
+\fancyhead[L]{\Huge{Blair Gemmer} \small{\{\href{https://blairgemmer.com}{blairgemmer.com} --  \href{mailto:blair.gemmer@gmail.com}{blair.gemmer@gmail.com} -- \href{tel:4062534962}{406.253.4962}\}} \hfill \copyright \ \the\year} %%Header
+\fancyfoot[L]{\small{\{\href{https://blairgemmer.com}{blairgemmer.com} --  \href{mailto:blair.gemmer@gmail.com}{blair.gemmer@gmail.com} -- \href{tel:4062534962}{406.253.4962}\}} \hfill v2025.06.16} %Footer
+
+
+
+% Two-column layout with ragged columns to avoid hyphenation
+\begin{multicols}{2}
+\raggedcolumns
+\RaggedRight  
+
+% -------------------- SUMMARY --------------------
+\noindent
+\textbf{\large Summary}\\
+Multidisciplinary software engineer and product leader with 10+ years of experience delivering robust web apps, automation tools, and cloud infrastructure. Blends technical depth with human-centered design. Specializes in backend Python development, DevOps pipelines, and cross-functional collaboration.
+
+% -------------------- TECHNICAL SKILLS --------------------
+\noindent
+\textbf{\large Technical Skills}\\
+\textbf{Languages:} Python, JS, Bash, C\#, SQL, R \\
+\textbf{Frameworks:} Django, Flask, Node.js, React, ASP.NET \\
+\textbf{Cloud/DevOps:} AWS (Lambda, EC2, S3, IAM, RDS), Serverless, GitHub Actions, Bitbucket Pipelines, Docker \\
+\textbf{Monitoring/APM:} DataDog, Honeycomb, Stackdriver, CloudWatch, Sentry \\
+\textbf{Tools:} Jira, Confluence, Postman, Slack, ArcGIS, PostgreSQL, Redis
+
+% -------------------- EXPERIENCE --------------------
+\noindent
+\textbf{\large Experience}
+\begin{itemize}[leftmargin=*]
+
+\item \textit{Freelance Software Engineer}, Missoula, MT (2009--Present)
+\begin{itemize}[leftmargin=1em]
+  \item Developed Django/React web apps and custom Slack/Discord bots.
+  \item Provided product strategy, MVP design, and full-stack engineering.
+  \item Automated CI/CD workflows using GitHub Actions and Serverless.
+  \item Contributed to open-source projects and mentored early-stage teams.
+  \item \textit{Impact: Helped founders launch products and streamline operations.}
+\end{itemize}
+
+\item \textit{Software Engineer}, VYNYL (2021--2024)
+\begin{itemize}[leftmargin=1em]
+  \item Built AWS Lambda and Step Function pipelines for healthcare apps.
+  \item Created mobile-responsive portals for Athena scheduling and Zoom visits.
+  \item Implemented GitHub Actions CI/CD pipelines and unittest coverage.
+  \item Developed Playwright-based tests and Python data validation scripts.
+  \item \textit{Impact: Boosted reliability, testing, and developer velocity.}
+\end{itemize}
+
+\item \textit{Software Engineer}, Submittable (2019--2021)
+\begin{itemize}[leftmargin=1em]
+  \item Managed deployments via AWS CodePipeline and Serverless Framework.
+  \item Built deploy automations with EventBridge and Lambda.
+  \item Monitored production systems using CloudWatch and Slack integration.
+  \item Maintained IAM roles, Route 53 DNS, and on-call troubleshooting.
+  \item \textit{Impact: Improved uptime and release cadence by 30\%.}
+\end{itemize}
+
+\item \textit{CTO}, TOMIS (2016--2019)
+\begin{itemize}[leftmargin=1em]
+  \item Led product and engineering for a Python/Django and React SaaS app.
+  \item Managed Jira workflows, QA, roadmap planning, and release pipelines.
+  \item Integrated 3rd-party APIs and marketing automation tools.
+  \item Oversaw monitoring (DataDog, Stackdriver), QA, and incident response.
+  \item \textit{Impact: Built a modern platform that scaled to 100+ clients.}
+\end{itemize}
+
+\item \textit{Co-Founder/CTO}, dotmos (2015--2017)
+\begin{itemize}[leftmargin=1em]
+  \item Designed a media/search aggregator with Django, React, and Node.
+  \item Created interactive dashboards and a scalable search UI.
+  \item Managed deployments, documentation, and customer feedback loops.
+  \item \textit{Impact: Unified social and search content into a single UX.}
+\end{itemize}
+
+\item \textit{Software Engineer}, Upstream Research (2015--2016)
+\begin{itemize}[leftmargin=1em]
+  \item Processed GIS datasets using ArcPy, Python, and Azure services.
+  \item Built ASP.NET tools and PostgreSQL data pipelines.
+  \item QA’d REST APIs with custom Python testing scripts.
+  \item \textit{Impact: Enabled health/environmental analysis using geodata.}
+\end{itemize}
+
+\end{itemize}
+
+% -------------------- EDUCATION --------------------
+\noindent
+\textbf{\large Education}\\
+\textbf{University of Montana – Missoula, MT} \\
+M.S. in Computer Science, 2014 — Focus: Machine Learning/AI \\
+B.A. in Psychology, Minor in Math/Media Arts
+
+\end{multicols}
+\end{document}
