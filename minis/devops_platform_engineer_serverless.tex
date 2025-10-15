@@ -1,0 +1,70 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.75in,bottom=0.75in,left=0.8in,right=0.8in]{geometry}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\setlist{nosep}
+\pagenumbering{gobble}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}
+
+% ----- Fancy header/footer -----
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\Huge Blair Gemmer \quad
+  \small\{\href{https://blairgemmer.com}{blairgemmer.com} -
+  \href{mailto:blair.gemmer@gmail.com}{blair.gemmer@gmail.com} -
+  \href{tel:4062534962}{406.253.4962}\}}
+\fancyhead[R]{\copyright\ \the\year}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\newcommand{\docversion}{v2025.10.15}
+\fancyfoot[L]{\small\{\href{https://blairgemmer.com}{blairgemmer.com} -
+  \href{mailto:blair.gemmer@gmail.com}{blair.gemmer@gmail.com} -
+  \href{tel:4062534962}{406.253.4962}\}}
+\fancyfoot[R]{\docversion}
+
+\begin{document}
+
+\section*{Summary}
+Full-stack software engineer and technical product strategist specializing in automation, delivery systems, and cloud infrastructure on AWS. In the past five years: raised deploy cadence, standardized CI/CD and IaC, and improved reliability with clear observability. I focus on systems that reduce toil, surface signal, and ship value quickly. Recently, I have been leveraging AI resources and tools such as ChatGPT, n8n, MCP, and Linear to maintain quality while reducing research and development costs.
+
+\section*{Core Skills}
+\begin{itemize}[leftmargin=*]
+  \item \textbf{CI/CD and Quality:} AWS CodePipeline, GitHub Actions, Bitbucket Pipelines, Tox, Poetry, Pytest, Playwright
+  \item \textbf{IaC and Environments:} CloudFormation, Serverless Framework; IAM/ACM, Route 53
+  \item \textbf{Observability and SRE:} CloudWatch, X-Ray, Datadog, Honeycomb, Sentry; runbooks and rollback paths
+  \item \textbf{Cloud and Infrastructure:} Lambda, EventBridge, EC2/ELB, RDS, DynamoDB
+  \item \textbf{Languages and Frameworks:} Python, TypeScript/JavaScript, SQL; React, Next.js
+\end{itemize}
+
+\section*{Selected Experience}
+\noindent\textbf{Freelance} \textit{Software Engineer and Consultant} \hfill May 2009 - Present\par
+\begin{itemize}
+  \item Automated delivery and ops for small teams; GitHub Actions pipelines and serverless deployments on AWS.
+  \item AI and automation integrations: OpenAI API and n8n with Slack bots for approvals, summaries, and internal tools.
+\end{itemize}
+
+\noindent\textbf{VYNYL} \textit{Software Engineer} \hfill Mar 2021 - Apr 2024\par
+\begin{itemize}
+  \item Reproducible environments with Serverless Framework; GitHub Actions pipelines; CloudWatch and X-Ray across Lambda services.
+\end{itemize}
+
+\noindent\textbf{Submittable} \textit{Software Engineer in DevOps} \hfill Sep 2019 - Mar 2021\par
+\begin{itemize}
+  \item CI/CD with CodePipeline and CloudFormation; EventBridge workflows; quality bars with Pytest and Tox; certs and networking with ACM and Route 53.
+  \item On-call with fast rollback; moved cadence from weekly to daily and reduced release overhead about 30 percent.
+\end{itemize}
+
+\noindent\textbf{TOMIS} \textit{CTO} \hfill Sep 2016 - Jul 2019\par
+\begin{itemize}
+  \item Delivery and reliability practices: Bitbucket Pipelines, Jira, Confluence, Usersnap, Sentry; monitoring with Datadog and Honeycomb; incident comms via Statuspage and UptimeRobot.
+\end{itemize}
+
+\section*{Education}
+M.S., Computer Science (AI/ML emphasis) — University of Montana \\
+B.A., Psychology — University of Montana \quad \emph{Minors: Mathematics, Media Arts}
+
+\end{document}

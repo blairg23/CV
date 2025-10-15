@@ -1,0 +1,70 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.75in,bottom=0.75in,left=0.8in,right=0.8in]{geometry}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\setlist{nosep}
+\pagenumbering{gobble}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}
+
+% ----- Fancy header/footer -----
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\Huge Blair Gemmer \quad
+  \small\{\href{https://blairgemmer.com}{blairgemmer.com} -
+  \href{mailto:blair.gemmer@gmail.com}{blair.gemmer@gmail.com} -
+  \href{tel:4062534962}{406.253.4962}\}}
+\fancyhead[R]{\copyright\ \the\year}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\newcommand{\docversion}{v2025.10.15}
+\fancyfoot[L]{\small\{\href{https://blairgemmer.com}{blairgemmer.com} -
+  \href{mailto:blair.gemmer@gmail.com}{blair.gemmer@gmail.com} -
+  \href{tel:4062534962}{406.253.4962}\}}
+\fancyfoot[R]{\docversion}
+
+\begin{document}
+
+\section*{Summary}
+Full-stack software engineer and technical product strategist specializing in automation, data infrastructure, and cloud-native backends. I design cost-aware ingestion and validation that keep products reliable. Recently, I have been leveraging AI resources and tools such as ChatGPT, n8n, MCP, and Linear to maintain quality while reducing research and development costs.
+
+\section*{Core Skills}
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Data and ETL:} Snowflake, PostgreSQL, DynamoDB (PynamoDB), Pandas; partitioned loads, scheduling, cost controls
+  \item \textbf{Validation and Tests:} Playwright for E2E; Python automation for CSV to database checks; CI gates
+  \item \textbf{Cloud and Services:} AWS Lambda, S3, API Gateway; GitHub Actions; Serverless Framework
+  \item \textbf{Integrations:} Salesforce, ATTOM, REST APIs
+  \item \textbf{CI/CD:} GitHub Actions, AWS CodePipeline; Tox, Poetry, Pytest
+\end{itemize}
+
+\section*{Selected Experience}
+\noindent\textbf{Freelance} \textit{Software Engineer and Consultant} \hfill May 2009 - Present\par
+\begin{itemize}
+  \item Built data pipelines and lightweight dashboards; automated ETL in Python with GitHub Actions scheduling.
+  \item AI and automation integrations: OpenAI API and n8n and Slack for summaries, approvals, and reporting.
+  \item \textbf{Intrust Funding / Heaton Dainard (2024 - 2025)}: Ingested ATTOM and Salesforce into Snowflake; scheduled tasks, automated reporting, and cost controls.
+\end{itemize}
+
+\noindent\textbf{VYNYL - UCSF Multitudes} \textit{Software Engineer}  \hfill 2021 - 2024\par
+\begin{itemize}
+  \item CSV to database validation automation and Playwright E2E checks with CI gates to block regressions before release.
+\end{itemize}
+
+\noindent\textbf{Submittable} \textit{Software Engineer in DevOps} \hfill Sep 2019 - Mar 2021\par
+\begin{itemize}
+  \item CodePipeline and CloudFormation; EventBridge workflows; Pytest and Tox quality bars; monitoring with CloudWatch.
+\end{itemize}
+
+\noindent\textbf{TOMIS} \textit{CTO} \hfill Sep 2016 - Jul 2019\par
+\begin{itemize}
+  \item Built analytics and reporting for a SaaS platform; data quality via specs and automated checks; delivery and monitoring with Datadog, Honeycomb, Sentry, Statuspage.
+\end{itemize}
+
+\section*{Education}
+M.S., Computer Science (AI/ML emphasis) — University of Montana \\
+B.A., Psychology — University of Montana \quad \emph{Minors: Mathematics, Media Arts}
+
+\end{document}

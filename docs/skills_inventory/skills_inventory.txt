@@ -1,0 +1,108 @@
+Totally fair. Here’s a clean, section-by-section inventory of what I currently think your résumé says (and what I inferred from our chats). Use this to mark what’s right/wrong fast.
+
+# Header
+
+* **Name:** Blair Gemmer
+* **Location:** Missoula, MT
+* **Email (should be):** `blair.gemmer@gmail.com` (I mistakenly used `blairg23@gmail.com` earlier — my bad.)
+* **LinkedIn:** linkedin.com/in/blairgemmer
+* **GitHub:** github.com/blairg23
+
+# Summary (my current wording)
+
+Full-stack software engineer & technical product strategist focused on **automation, data infrastructure, and cloud-native backends**. Last 5 years: shipped healthcare & education platforms, led DevOps for high-throughput releases, and integrated AWS-centric systems. Bias toward reducing toil, surfacing signal, and shipping value.
+
+# Core Skills (the stack I have on the page)
+
+* **Languages & Frameworks:** Python, TypeScript/JavaScript, SQL, Django, Flask, React, Next.js
+* **Cloud & Infra:** AWS (Lambda, API Gateway, DynamoDB, RDS, EC2/ELB, Route 53, IAM/ACM, CloudWatch/X-Ray, EventBridge), CloudFormation, Serverless Framework, Docker; GCP (select)
+* **Data & Pipelines:** PostgreSQL, Redis, Snowflake, ETL/ingestion, PynamoDB
+* **CI/CD & Quality:** GitHub Actions, AWS CodePipeline, Bitbucket Pipelines, Tox, Pytest, Playwright (E2E), integration/load tests in CI
+* **Product & Collaboration:** Jira, Linear, Confluence, Slack (bots/integrations)
+* **AI & Automation:** OpenAI/ChatGPT API, n8n, MCP, v0
+
+> If anything here is not accurate (e.g., remove GCP, add Bitbucket Server, etc.), call it out and I’ll adjust.
+
+# Professional Experience (reverse-chronological)
+
+## Freelance Software Engineer / Consultant — Various (2020–Present)
+
+**Focus:** data infrastructure, AI/automation integrations, web app delivery
+
+* **Intrust Funding / Heaton Dainard (2024–2025):** Designed real-estate data ingestion & analytics pipelines integrating **Snowflake** with **ATTOM** and **Salesforce**; built Python ETL jobs, automated reporting; implemented cost controls.
+* **AI/Automation Integrations (2023–2025):** Built internal tools/bots using **OpenAI API** and **n8n** with **Slack** integrations to automate reporting, summarization, approvals, and human-in-the-loop workflows.
+* Delivered custom web apps & APIs (**React**, **Django/Flask**); set up **GitHub Actions** CI/CD and serverless deployments.
+* **Tool → outcome:** Snowflake + Python ETL → partitioned loads & scheduled tasks (leaner storage/compute). n8n + Slack → fewer manual steps and faster approvals.
+* **Stack:** Python, React, Django/Flask, PostgreSQL, Redis, **Snowflake**, REST APIs, GitHub Actions, Serverless approaches, OpenAI API, n8n.
+
+## Software Engineer — VYNYL, LLC (Remote) (Mar 2021–Apr 2024)
+
+**Domains:** Healthcare (Happier Living), Early Childhood Ed (UCSF Multitudes)
+
+* Built a mobile-responsive healthcare portal integrating **Zoom** consults and **Athena** scheduling (**Python/Django/React**).
+* Modeled operational data in **DynamoDB** via **PynamoDB**; added observability with **AWS X-Ray** and **CloudWatch**.
+* For **UCSF Multitudes**: implemented **Playwright** E2E tests; automated CSV→DB validation in Python; added CI gates for regressions.
+* **Tool → outcome:** Serverless Framework + GitHub Actions → reproducible envs & low-downtime deploys. Playwright → coverage on critical flows.
+* **Stack:** Python, Django/Flask, React, AWS (Lambda, API Gateway, DynamoDB, CloudWatch, X-Ray), Serverless Framework, GitHub Actions, Playwright, Pandas, PynamoDB.
+
+## Software Engineer — Submittable, Inc. (Sep 2019–Mar 2021)
+
+**Domains:** DevOps, Release Engineering, Production Ops
+
+* Orchestrated SDLC & production releases with **AWS CodePipeline**; automated release comms via **GitHub releases** and **Slack**.
+* Built/maintained test & prod with **CloudFormation**, **Serverless Framework**, **EventBridge**, **Lambda**.
+* Managed **IAM/ACM**, **Route 53**; owned cert rotation; **CloudWatch** dashboards/alerts; on-call with fast rollback paths.
+* **Tool → outcome:** CodePipeline + CloudFormation → daily deploy cadence. EventBridge → automated release gates. Pytest/Tox → consistent CI quality bars.
+* **Impact note:** reduced deployment overhead ~30% and moved weekly → daily releases.
+* **Stack:** AWS (CodePipeline, CloudFormation, Lambda, EventBridge, IAM, ACM, EC2, ELB, RDS, Route 53, CloudWatch), Serverless Framework, GitHub, Pytest, Tox.
+
+## CTO — TOMIS, Inc. (Sep 2016–Jul 2019)
+
+**Product & platform for tour-operator SaaS**
+
+* **Technical Leadership:** owned product design from exec vision → implementation; authored specs & delivery plans; led backend (**Python/Django**) and advised React FE on QA/design; prototyped new tech to de-risk roadmap.
+* **Project Management:** Scrum Master; Jira boards/workflows/triage; Confluence docs; Bitbucket repos/branching; Slack release comms; release notes from Jira; Next-Gen Kanban for epic priority.
+* **DevOps:** commit-quality rules, code review; feature/release/hotfix branching; **Bitbucket Pipelines** for CI; **Usersnap** for feedback/bugs.
+* **SRE/Observability:** **Datadog** & **Honeycomb** (perf/tracing); **Stackdriver** for logging; **Sentry** w/ Jira integration; **UptimeRobot**; **Statuspage.io** post-mortems.
+* **Impact:** spearheaded a SaaS platform that automated workflows and delivered actionable analytics.
+* **Stack:** Python, Django, PostgreSQL; Bitbucket Pipelines; Jira, Confluence, Slack; Datadog, Honeycomb, Stackdriver, Sentry; Usersnap; UptimeRobot, Statuspage.
+
+## Co-Founder / CTO — dotmos, LLC (Jul 2015–Jan 2017)
+
+**Social/search aggregation product and consulting**
+
+* Product & architecture for Django/Node/React stack; delivered core features & integrations; supported CI/CD and monitoring.
+* **Stack:** Python/JavaScript, Django/Node/React, SQL; AWS/GCP (as applicable); CI/CD.
+
+## Data Scientist / Software Engineer — Upstream Research, Inc. (Nov 2015–Sep 2016)
+
+**Data & research workflows**
+
+* Built data processing automation & reporting pipelines; internal dashboards/APIs.
+* **Legacy/contained tech:** **ArcGIS/ArcPy**, **ASP.NET MVC (C#)**, Azure admin; PostgreSQL; QA/load testing.
+* **Stack:** Python, PostgreSQL, ETL tooling, Azure (admin), REST APIs; ArcGIS/ArcPy.
+
+# Additional Experience (compact)
+
+* **Security Consultant — LMG Security:** supported assessments & engineering; remediation coordination.
+* **Senior Software Developer — Hanna-James Enterprises:** internal business software; data workflows & integrations.
+
+# Education
+
+* **M.S., Computer Science (AI/ML emphasis)** — University of Montana
+* **B.A., Psychology** — University of Montana — *Minors: Mathematics, Media Arts*
+
+---
+
+## Quick yes/no checklist (reply inline)
+
+* Email should be **[blair.gemmer@gmail.com](mailto:blair.gemmer@gmail.com)**: **yes/no**
+* Keep **GCP** in Core Skills (as “select services”): **yes/no**
+* Keep **MCP** and **v0** in AI & Automation: **yes/no**
+* **Freelance: Intrust/Heaton Dainard** wording accurate: **yes/no (edits?)**
+* **VYNYL** bullets reflect real work: **yes/no (edits?)**
+* **Submittable** daily deploy cadence + ~30% overhead reduction: **ok to keep / remove / edit**
+* **TOMIS** expanded detail (PM/DevOps/SRE tools) good: **yes/no (edits?)**
+* **dotmos** and **Upstream** level of detail acceptable: **yes/no (edits?)**
+
+Once you mark these, I’ll turn this inventory into the final LaTeX with consistent “Impact” lines across roles and the corrected email.
