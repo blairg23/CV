@@ -1,0 +1,72 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.75in,bottom=0.75in,left=0.8in,right=0.8in]{geometry}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\setlist{nosep}
+\pagenumbering{gobble}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}
+
+% ----- Fancy header/footer -----
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\Huge Blair Gemmer \quad
+  \small\{\href{https://blairgemmer.com}{blairgemmer.com} -
+  \href{mailto:blair.gemmer@gmail.com}{blair.gemmer@gmail.com} -
+  \href{tel:4062534962}{406.253.4962}\}}
+\fancyhead[R]{\copyright\ \the\year}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\newcommand{\docversion}{v2025.10.15}
+\fancyfoot[L]{\small\{\href{https://blairgemmer.com}{blairgemmer.com} -
+  \href{mailto:blair.gemmer@gmail.com}{blair.gemmer@gmail.com} -
+  \href{tel:4062534962}{406.253.4962}\}}
+\fancyfoot[R]{\docversion}
+
+\begin{document}
+
+\section*{Summary}
+Full-stack software engineer and technical product strategist specializing in automation, data infrastructure, and cloud-native backends. In the past five years: delivered healthcare and education platforms at scale, led DevOps for high-throughput releases, and built reliable integrations across AWS and modern Python stacks. I focus on systems that reduce toil, surface signal, and ship value quickly. Recently, I have been leveraging AI resources and tools such as ChatGPT, n8n, MCP, and Linear to maintain quality while reducing research and development costs.
+
+\section*{Core Skills}
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Languages and Frameworks:} Python, TypeScript/JavaScript, SQL, React, Next.js
+  \item \textbf{Cloud and Infrastructure:} AWS (Lambda, API Gateway, DynamoDB, RDS, EC2/ELB, Route 53, IAM/ACM, CloudWatch/X-Ray, EventBridge), CloudFormation, Serverless Framework, Docker, Kubernetes
+  \item \textbf{Data and Pipelines:} PostgreSQL, Redis, Snowflake, ETL and ingestion, PynamoDB
+  \item \textbf{CI/CD and Quality:} GitHub Actions, AWS CodePipeline, Tox, Poetry, Pytest, Playwright
+\end{itemize}
+
+\section*{Selected Experience}
+\noindent\textbf{Freelance} \textit{Software Engineer and Consultant} \hfill May 2009 - Present\par
+\begin{itemize}
+  \item Cloud-native products and APIs on AWS with Python and React/Next.js; owned architecture, CI/CD, and technical operations end to end.
+  \item Intrust Funding / Heaton Dainard (2024 - 2025): Snowflake and Python ETL from ATTOM and Salesforce; scheduled loads, automated reporting, cost controls.
+  \item AI and automation integrations (2022 - 2025): OpenAI API and n8n with Slack bots for approvals and summaries with people in the loop when needed.
+\end{itemize}
+
+\noindent\textbf{VYNYL} \textit{Software Engineer} \hfill Mar 2021 - Apr 2024\par
+\begin{itemize}
+  \item Built AWS services for a healthcare portal integrating Zoom and Athena on Lambda and API Gateway; modeled data in DynamoDB via PynamoDB; observability with X-Ray and CloudWatch; CI with Serverless Framework and GitHub Actions.
+  \item UCSF Multitudes: Playwright E2E tests and Python automation to validate CSV to database ingest with CI gates.
+\end{itemize}
+
+\noindent\textbf{Submittable} \textit{Software Engineer in DevOps} \hfill Sep 2019 - Mar 2021\par
+\begin{itemize}
+  \item Standardized CodePipeline and CloudFormation; EventBridge workflows; Pytest and Tox quality gates; GitHub and Slack release comms.
+  \item Result: weekly to daily deploys and about 30 percent less release overhead.
+\end{itemize}
+
+\noindent\textbf{TOMIS} \textit{CTO} \hfill Sep 2016 - Jul 2019\par
+\begin{itemize}
+  \item Took founder ideation to marketable product: led specs, architecture, and delivery for a SaaS platform for tour operators (Python/Django, React).
+  \item SDLC and reliability: Bitbucket Pipelines, Jira, Confluence, Usersnap, Sentry; monitoring with Datadog and Honeycomb; incident comms via Statuspage and UptimeRobot.
+\end{itemize}
+
+\section*{Education}
+M.S., Computer Science (AI/ML emphasis) — University of Montana \\
+B.A., Psychology — University of Montana \quad \emph{Minors: Mathematics, Media Arts}
+
+\end{document}
