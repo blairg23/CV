@@ -1,6 +1,8 @@
 ## Custom:
 /archive/
 /docs/word_doc_version/archive/
+/specific_roles/
+
 # Created by https://www.gitignore.io/api/latex,windows,macos
 
 ### LaTeX ###
