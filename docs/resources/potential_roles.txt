@@ -1,0 +1,43 @@
+Heck yes—let’s go hunting. I pulled a first slate of **live, remote-friendly roles** aligned to your three minis (Backend/Platform, DevOps/Platform, Data/ETL) plus AI-automation. Quick notes on fit + what to lead with in your mini for each.
+
+# Shortlist (fresh + relevant)
+
+* **Senior Backend Engineer — Remote.com** (Elixir, AWS, React/Next.js; heavy CI/CD). Fit score: medium (Elixir isn’t your core, but AWS + CI/CD + React/Next.js is on-brand). Lead with: VYNYL serverless + Submittable release cadence. ([Greenhouse][1])
+* **Site Reliability Engineer — Mattermost** (remote; marketplace packaging, AWS focus). Fit: medium-high for your DevOps/Platform mini. Lead with: Submittable IaC, TOMIS SRE stack, on-call/runbooks. ([Greenhouse][2])
+* **SRE, Dev Infrastructure — MongoDB** (DevInfra for multi-cloud CI/build/test infra). Fit: medium (strong CI/CD + platform chops). Lead with: CodePipeline/CloudFormation, Serverless Framework, GH Actions. ([MongoDB][3])
+* **Data Engineer (Snowflake, Python, SQL)—Dice** (100% remote; healthcare nice-to-have). Fit: high for your Data/ETL mini. Lead with: Intrust/Heaton Dainard Snowflake + Python ETL; VYNYL data validation. ([Dice][4])
+* **Data Engineer (Snowflake/Python) — LinkedIn (via Dice)** (remote). Fit: high. Lead with: ATTOM/Salesforce→Snowflake pipelines; cost controls; partitioned loads. ([LinkedIn][5])
+* **AI Automation Engineer — n8n community post** (full-time, remote; n8n + LLMs). Fit: high for AI/Automation mini. Lead with: OpenAI API + n8n + Slack bots, human-in-the-loop workflows. ([n8n Community][6])
+* **n8n Careers (company roles)** (remote-first; check engineering openings). Fit: high alignment with your toolchain. Lead with: your n8n/Slack automations + product mindset. ([n8n][7])
+
+# Where I’d start (today)
+
+1. **Apply with tailored minis** to:
+
+   * Data Engineer (Dice, LinkedIn) — use **Data/ETL** mini.
+   * Mattermost SRE — use **DevOps/Platform** mini.
+   * n8n Automation role — use **AI/Automation** mini.
+
+2. **Queue next**: Remote.com Senior Backend Engineer (if they accept Python-heavy candidates open to Elixir) — use **Backend/Platform** mini and add a one-liner: “comfortable ramping on Elixir; daily CI/CD and serverless patterns are my home turf.”
+
+# Your fast-tailor checklist (per posting)
+
+* Mirror title and top 5 keywords in the mini’s **Summary** and **Core Skills** (don’t add tools you don’t have).
+* Reorder **Selected Experience** to spotlight the most relevant project first (still reverse-chron).
+* Drop 1–2 bullets that don’t serve the JD; add 1 quantified line (e.g., “moved cadence weekly→daily; ~30% overhead drop”).
+
+# Sanity filters (tell me and I’ll refine immediately)
+
+* **Comp floor** (e.g., $140k+ base; or contract OK/No)
+* **Time-zone** constraints (you’re MT; many ask for US time zone—these do)
+* **Team size** or **industry** preferences (healthcare, dev-tools, SaaS B2B, etc.)
+
+If you paste in the **first two JDs** you like from the list above (or others you’ve got), I’ll snap your minis into laser-targeted versions in one go—title, keywords, and bullets tuned to pass ATS and make a human nod.
+
+[1]: https://job-boards.greenhouse.io/remotecom/jobs/7486738003?utm_source=chatgpt.com "Job Application for Senior Backend Engineer at Remote"
+[2]: https://job-boards.greenhouse.io/mattermost/jobs/4894083008?utm_source=chatgpt.com "Site Reliability Engineer (SRE)"
+[3]: https://www.mongodb.com/careers/job/?gh_jid=6982687&utm_source=chatgpt.com "Site Reliability Engineer, Development Infrastructure ..."
+[4]: https://www.dice.com/job-detail/b85a518c-4f5c-4ec4-93bc-07453bd39565?utm_source=chatgpt.com "Data Engineer-Snowflake - PY DATA, INC. - Remote"
+[5]: https://www.linkedin.com/jobs/view/data-engineer-snowflake-python-sql-100%25-remote-job-at-jobs-via-dice-4308885489?utm_source=chatgpt.com "Data Engineer (Snowflake, python , SQL) -100% Remote job"
+[6]: https://community.n8n.io/t/full-time-fully-remote-role-ai-automation-engineer-digital-marketing-agency/154085?utm_source=chatgpt.com "Full Time, Fully Remote role - AI Automation Engineer"
+[7]: https://n8n.io/careers/?utm_source=chatgpt.com "Careers at n8n"

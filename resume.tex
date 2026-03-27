@@ -1,5 +1,6 @@
 % Me0wy Master Resume (AI + Data Infra + PM — Professional Focus)
 
+
 \documentclass[10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[top=0.75in,bottom=0.75in,left=0.8in,right=0.8in]{geometry}
@@ -11,12 +12,15 @@
 \setlist{nosep}
 \pagenumbering{gobble}
 
+
 % ----- Headings -----
 \titleformat{\section}{\large\bfseries}{}{0pt}{}
+
 
 % ----- Fancy header/footer -----
 \pagestyle{fancy}
 \fancyhf{} % clear defaults
+
 
 % Header (Left): Name + compact contacts + © YEAR (Right)
 \fancyhead[L]{\Huge Blair Gemmer \quad
@@ -26,20 +30,31 @@
 \fancyhead[R]{\copyright\ \the\year}
 \renewcommand{\headrulewidth}{1pt}
 
+
 % Footer (Left): contacts + version
 \renewcommand{\footrulewidth}{1pt}
-\newcommand{\docversion}{v2025.10.14} % <-- update when you want
+\newcommand{\docversion}{v2026.03.27} % <-- update when you want
 \fancyfoot[L]{\small\{\href{https://blairgemmer.com}{blairgemmer.com} -
   \href{mailto:blair.gemmer@gmail.com}{blair.gemmer@gmail.com} -
   \href{tel:4062534962}{406.253.4962}\}}
 \fancyfoot[R]{\docversion}
 
+
+% One-liner role header: italic Title, bold Company, optional (Location), and Dates.
+\newcommand{\roleline}[4]{%
+  \noindent\textbf{#1} — #2 #3 \hfill #4\par
+}
+
+
 \begin{document}
+
 
 % ===== Header row removed (now handled by fancyhdr) =====
 
+
 \section*{Summary}
 Full-stack software engineer and technical product strategist specializing in automation, data infrastructure, and cloud-native backends. In the past five years: delivered healthcare and education platforms at scale, led DevOps for high-throughput releases, and built reliable integrations across AWS and modern Python stacks. I focus on systems that reduce toil, surface signal, and ship value quickly.
+
 
 \section*{Core Skills}
 \begin{itemize}[leftmargin=*]
@@ -51,11 +66,14 @@ Full-stack software engineer and technical product strategist specializing in au
   \item \textbf{AI \& Automation:} OpenAI/ChatGPT API, n8n, MCP, v0
 \end{itemize}
 
+
 \section*{Professional Experience}
 
-\noindent\textbf{Freelance Software Engineer / Consultant} — Various Clients (Missoula, MT) \hfill 2009--Present\par
+
+\roleline{Freelance Software Engineer / Consultant}{Various Clients}{(Missoula, MT)}{May 2009 - Present}
 \emph{Data infrastructure, AI/automation integrations, and product delivery}\par
 \begin{itemize}
+  \item \textbf{Founder / Hell's Gate Consulting (2026--Present):}  Established independent technology consulting firm focused on AI implementation strategy, data infrastructure, and workflow automation for startups and growth-stage businesses.
   \item \textbf{Intrust Funding / Heaton Dainard (2024--2025):} Designed real-estate data ingestion and analytics pipelines integrating Snowflake with ATTOM and Salesforce; built Python ETL jobs, automated reporting, and implemented cost controls.
   \item \textbf{AI/Automation Integrations (2022--2025):} Built internal tools/bots using OpenAI API and n8n with Slack integrations to automate reporting, summarization, approvals, and human-in-the-loop workflows.
   \item \textbf{Product \& Delivery:} Built and launched cloud-native products and web apps for startups and personal ventures using AWS, React/Next.js, and Django/Flask. Drove end-to-end execution, from architecture and CI/CD automation to team building, project management, and technical operations.
@@ -63,7 +81,8 @@ Full-stack software engineer and technical product strategist specializing in au
   \item \textbf{Stack:} Python, React, Next.js, Django/Flask, PostgreSQL, Redis, Snowflake, REST APIs, GitHub Actions, Serverless approaches, OpenAI API, n8n.
 \end{itemize}
 
-\noindent\textbf{Software Engineer} — VYNYL, LLC (Remote) \hfill Mar~2021--Apr~2024\par
+
+\roleline{Software Engineer}{VYNYL, LLC}{(Remote)}{Mar 2021 - Apr 2024}
 \emph{Healthcare (Happier Living) • Early Childhood Education (UCSF Multitudes)}\par
 \begin{itemize}
   \item \textbf{Product \& Backend:} Built a mobile-responsive healthcare portal integrating Zoom consultations and Athena scheduling using Python on AWS (Lambda, API Gateway) with a modern web front end.
@@ -73,9 +92,11 @@ Full-stack software engineer and technical product strategist specializing in au
   \item \textbf{Stack:} Python, React, AWS (Lambda, API Gateway, DynamoDB, CloudWatch, X-Ray), Serverless Framework, GitHub Actions, Playwright, Pandas, PynamoDB.
 \end{itemize}
 
+
 \newpage
 
-\noindent\textbf{Software Engineer, DevOps} — Submittable, Inc. (Missoula, MT) \hfill Sep~2019--Mar~2021\par
+
+\roleline{Software Engineer in DevOps}{Submittable, Inc.}{(Missoula, MT)}{Sep 2019 - Mar 2021}
 \emph{DevOps • Release Engineering • Production Operations}\par
 \begin{itemize}
   \item \textbf{Release Engineering:} Orchestrated SDLC and production releases using AWS CodePipeline; automated comms via GitHub releases and Slack; enforced branch hygiene and quality bars (Pytest/Tox) to stabilize daily deploy cadence.
@@ -85,7 +106,8 @@ Full-stack software engineer and technical product strategist specializing in au
   \item \textbf{Stack:} AWS (CodePipeline, CloudFormation, Lambda, EventBridge, IAM, ACM, EC2, ELB, RDS, Route~53, CloudWatch), Serverless Framework, GitHub, Pytest, Tox.
 \end{itemize}
 
-\noindent\textbf{CTO} — TOMIS, Inc. \hfill Sep~2016--Jul~2019\par
+
+\roleline{CTO}{TOMIS, Inc.}{}{Sep 2016 - Jul 2019}
 \emph{Digital marketing and analytics platform}\par
 \begin{itemize}
   \item \textbf{Technical Leadership:}
@@ -114,14 +136,16 @@ Full-stack software engineer and technical product strategist specializing in au
   \item \textbf{Stack:} Python, Django, PostgreSQL; Bitbucket Pipelines; Jira, Confluence, Slack; Datadog, Honeycomb, Stackdriver, Sentry; Usersnap; UptimeRobot, Statuspage.io.
 \end{itemize}
 
-\noindent\textbf{Co-Founder / CTO} — dotmos, LLC \hfill Jul~2015--Jan~2017\par
+
+\roleline{Co-Founder / CTO}{dotmos, LLC}{}{Jul 2015 - Jan 2017}
 \emph{Social/search aggregation product \& consulting}\par
 \begin{itemize}
   \item Product/architecture for Django/Node/React stack; delivered core features and integrations; supported CI/CD and monitoring.
   \item \textbf{Stack:} Python/JavaScript, Django/Node/React, SQL; AWS/GCP (as applicable); CI/CD.
 \end{itemize}
 
-\noindent\textbf{Data Scientist / Software Engineer} — Upstream Research, Inc. \hfill Nov~2015--Sep~2016\par
+
+\roleline{Data Scientist / Software Engineer}{Upstream Research, Inc.}{}{Nov 2015 - Sep 2016}
 \emph{Data and research workflows}\par
 \begin{itemize}
   \item Implemented data processing automation and reporting pipelines; built internal dashboards/APIs.
@@ -129,15 +153,21 @@ Full-stack software engineer and technical product strategist specializing in au
   \item \textbf{Stack:} Python, PostgreSQL, ETL tooling, Azure (admin), REST APIs; ArcGIS/ArcPy; ASP.NET MVC (C\#).
 \end{itemize}
 
+
 \section*{Additional Experience}
 \noindent\textbf{Security Consultant} — LMG Security\par
 \noindent\textbf{Senior Software Developer} — Hanna-James Enterprises
+
 
 \section*{Education}
 \textbf{M.S., Computer Science (AI/ML emphasis)} — University of Montana\par
 \textbf{B.A., Psychology} — University of Montana \quad \emph{Minors: Mathematics, Media Arts}
 
+
 % Optional creative one-liner (commented for professional focus)
 % Performed extensively as a live streamer (Twitch) — bringing user empathy, systems discipline under pressure, and audience-driven iteration.
 
+
 \end{document}
+
+
