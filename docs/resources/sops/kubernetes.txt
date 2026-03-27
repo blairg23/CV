@@ -1,0 +1,39 @@
+Short answer: because Kubernetes is great, but it is not always the simplest or safest way to hit SLOs. I say “when it fits” to signal I will pick the tool that meets reliability, cost, and team capacity, not the one that sounds coolest.
+
+Here is my mental checklist.
+
+# When I choose Kubernetes
+
+* You have **multiple cooperating services** that need pods, sidecars, or service mesh features.
+* You need **long-running workloads**, **custom networking**, or **sticky state** (StatefulSets, persistent volumes).
+* You want **portable deployments** across clouds or on-prem, or need **air-gapped** options.
+* You need **advanced autoscaling** or **job orchestration** beyond what serverless gives you.
+* Your team can actually **own the ops**: cluster upgrades, node pools, ingress, certificates, RBAC, backups.
+
+# When I avoid it and go serverless or simpler
+
+* The job is **event driven** HTTP or queue work with spiky or low traffic. Lambda or Cloud Run shines.
+* There is a **small team** and limited on-call bandwidth. Fewer moving parts wins.
+* **Cost clarity** and **blast-radius control** matter more than ultra-fine tuning.
+* The app is a **single API** or a couple of workers that do not need pod-level plumbing.
+
+# Gray areas and how I decide
+
+* **Latency:** If cold starts hurt user flows, prefer containers on ECS or a small K8s cluster with warm pods.
+* **Throughput:** If workloads are steady and heavy, containers often beat serverless on cost.
+* **Compliance:** If you need tight control of runtime, networking, or egress, containers or K8s make audits easier.
+* **Team fit:** If no one wants to babysit clusters, do not adopt K8s. Pick managed primitives.
+
+# How this maps to my work
+
+* **VYNYL:** Patient flows, webhooks, and scheduled tasks worked well on **Lambda + API Gateway + DynamoDB**. Simple, low ops, easy to observe.
+* **Submittable:** Mix of services with **CodePipeline, CloudFormation, EC2/ELB, RDS**. Where needed, containers made sense, but we still favored managed services.
+* **Freelance data pipelines:** ETL on **Snowflake plus Python**, with scheduled runs and alerts. No reason to bring a cluster when a few workers and events do the job.
+
+# One-liners you can use in applications
+
+* I use Kubernetes when it improves reliability or portability, not by default.
+* If serverless meets the SLO with less toil, I ship serverless.
+* If I need pod-level control, sidecars, or advanced autoscaling, I reach for Kubernetes.
+
+Bottom line: Kubernetes is a power tool. I use it when the problem actually needs a cluster, and I keep everything else as simple as possible.

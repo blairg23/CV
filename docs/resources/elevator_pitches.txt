@@ -1,0 +1,49 @@
+I am a solutions engineer with 10+ years of experience in the field. I have worked with numerous founders, building startups from the ground up, building out their development teams and managing SDLC. My undergrad is in Psychology and my master's is in Computer Science with an emphasis on AI/ML. I have a passion for augmenting our human learning and intelligence workflows with AI / automations. I love turning chaos into streamlined workflows.
+
+
+---
+
+Here are a few sharper, more polished rewrites depending on how you want it to sound:
+
+---
+
+### **1. Balanced and professional (great for resumes or portfolios)**
+
+> Designed and delivered tailored cloud and web solutions for small businesses and personal projects using React, Django/Flask, and AWS. Built CI/CD pipelines with GitHub Actions, implemented serverless architectures, and established efficient technical workflows, project management practices, and collaborative development teams.
+
+---
+
+### **2. Strong leadership emphasis (good if you want to show management experience)**
+
+> Led development and delivery of full-stack and cloud-based solutions using React, Django/Flask, and AWS. Established CI/CD pipelines, streamlined technical workflows, and built high-performing teams to execute and scale projects across multiple small businesses.
+
+---
+
+### **3. Entrepreneurial / startup-builder vibe**
+
+> Built and launched cloud-native products and web apps for startups and personal ventures using AWS, React, and Django/Flask. Drove end-to-end execution—from architecture and CI/CD automation to team building, project management, and technical operations.
+
+---
+
+### **4. If you want it to sound compact but still powerful**
+
+> Delivered scalable AWS-based web apps and APIs (React, Django/Flask) with automated CI/CD pipelines, serverless deployments, and strong project and team leadership.
+
+---
+
+Want me to make it fit your résumé’s tone exactly (e.g. match the wording style of the other bullets)? If you drop one or two surrounding lines, I’ll tailor it so it blends seamlessly.
+
+
+---
+
+Concise paragraph (formal)
+
+I am a solutions engineer with more than ten years of experience across product delivery, DevOps, and data systems. I have worked with founders to take products from concept to launch, build teams, and manage the SDLC end to end. I hold a B.A. in Psychology and an M.S. in Computer Science (AI/ML), and I focus on augmenting human workflows with practical AI and automation to turn chaos into clear, reliable processes.
+
+255-character version (fits most boxes)
+
+I am a solutions engineer with over ten years of experience. I help founders take products from concept to launch, build teams, and run the SDLC end to end. I hold a B.A. in Psychology and an M.S. in Computer Science (AI/ML), and I use practical AI to streamline human workflows.
+
+SRE/DevOps-leaning variant
+
+I build reliable, auditable systems on AWS using infrastructure as code, continuous delivery, and clear observability. Over the last decade I have led the SDLC from architecture through on call, and I now apply human-in-the-loop AI to reduce toil and accelerate delivery.
