@@ -1,0 +1,157 @@
+% Blair Gemmer — Engineering Manager Resume (Mercury / Leadership Focus)
+
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.65in,bottom=0.65in,left=0.75in,right=0.75in]{geometry}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\setlist{nosep}
+\pagenumbering{gobble}
+\setlength{\parskip}{3pt}
+
+
+% ----- Headings -----
+\titleformat{\section}{\large\bfseries}{}{0pt}{}
+\titlespacing{\section}{0pt}{6pt}{3pt}
+
+
+% ----- Fancy header/footer -----
+\pagestyle{fancy}
+\fancyhf{}
+
+
+% Header
+\fancyhead[L]{\Huge Blair Gemmer \quad
+  \small\{\href{https://blairgemmer.com}{blairgemmer.com} -
+  \href{mailto:blair.gemmer@gmail.com}{blair.gemmer@gmail.com} -
+  \href{tel:4062534962}{406.253.4962}\}}
+\fancyhead[R]{\copyright\ \the\year}
+\renewcommand{\headrulewidth}{1pt}
+
+
+% Footer
+\renewcommand{\footrulewidth}{1pt}
+\newcommand{\docversion}{v2026.05.29}
+\fancyfoot[L]{\small\{\href{https://blairgemmer.com}{blairgemmer.com} -
+  \href{mailto:blair.gemmer@gmail.com}{blair.gemmer@gmail.com} -
+  \href{tel:4062534962}{406.253.4962}\}}
+\fancyfoot[R]{\docversion}
+
+
+% Role header macro (no em dash)
+\newcommand{\roleline}[4]{%
+  \noindent\textbf{#1} \textit{at} #2 #3 \hfill #4\par
+}
+
+
+\begin{document}
+
+
+\section*{Summary}
+Engineering leader with 15+ years building and shipping production systems across healthcare, education, real estate analytics, and SaaS. Joined TOMIS as the first engineer and grew the team to 50 by owning every dimension of engineering leadership: hiring, onboarding, architecture, delivery, DevOps, and culture. Founded Hell's Gate Consulting to deliver AI implementation, data infrastructure, and workflow automation for growth-stage businesses. I mentor first and give teams high autonomy with clear accountability: own your work, demonstrate it to stakeholders, and keep shipping. My background in psychology informs how I read teams, navigate difficult conversations, and build environments where strong engineers do their best work. I stay close to the code and lean on AI tooling to accelerate learning across any stack.
+
+
+\section*{Leadership Strengths}
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Team Building:} Hires across all engineering disciplines (backend, frontend, DevOps, QA, data); scales teams from zero; builds hiring pipelines and interview standards from scratch
+  \item \textbf{Management Style:} Mentor first, high autonomy, clear accountability; engineers own their work end to end and are encouraged to present and demonstrate it at relevant team and stakeholder meetings
+  \item \textbf{Technical Credibility:} Hands-on across the full stack; writes and reviews production code; authors technical specs and architecture decisions
+  \item \textbf{Remote Leadership:} Builds and leads fully distributed teams; strong async communication; experienced with cross-timezone coordination
+  \item \textbf{AI-Augmented Workflows:} Integrates Claude, Claude Code, ChatGPT, and Codex into engineering workflows; uses AI to accelerate onboarding, code review, and ticket management without creating overreliance
+  \item \textbf{Psychology-Informed Leadership:} M.S. CS + B.A. Psychology; applies behavioral frameworks to developer motivation, conflict resolution, and team dynamics
+\end{itemize}
+
+
+\section*{Professional Experience}
+
+
+\roleline{Founder / Principal Engineer}{Hell's Gate Consulting}{(Missoula, MT)}{2026 -- Present}
+\emph{AI implementation, data infrastructure, and workflow automation}\par
+\begin{itemize}
+  \item Established independent technology consulting firm; recruited and managed contract engineers, designers, and specialists across concurrent engagements
+  \item Built \textit{Frostforce}, a generalized multi-tenant ETL platform ingesting MLS/ATTOM data through Snowflake into Salesforce; deployed to production for a Washington state private lender
+  \item Building agent-orchestration tooling directly rather than only wiring together off-the-shelf platforms: shipping open-source \textit{RepoScaffold} (GitHub repo scaffolding and management for humans and AI agents) and \textit{CueQueue} (job queue and orchestration platform), and actively researching/adopting agentic AI tooling (MCP, LLM APIs) where it fits
+  \item \textbf{Stack:} Python, Go, React, Snowflake, Salesforce, AWS, GitHub Actions, MCP
+\end{itemize}
+
+
+\roleline{Freelance Software Engineer / Consultant}{Various Clients}{(Missoula, MT)}{May 2009 -- 2026}
+\emph{Data infrastructure, AI integrations, and product delivery}\par
+\begin{itemize}
+  \item Led engineering delivery end to end for startups: architecture, CI/CD, team coordination, and production operations
+  \item Built internal automation tools using OpenAI API and n8n with Slack integrations to streamline reporting, approvals, and human-in-the-loop workflows
+  \item \textbf{Stack:} Python, React, Next.js, Django/Flask, PostgreSQL, Redis, Snowflake, AWS, GitHub Actions, OpenAI API, n8n
+\end{itemize}
+
+
+\roleline{Software Engineer}{VYNYL, LLC}{(Remote)}{Mar 2021 -- Apr 2024}
+\emph{Healthcare (Happier Living) and Early Childhood Education (UCSF Multitudes)}\par
+\begin{itemize}
+  \item Built a healthcare portal integrating Zoom consultations and Athena scheduling on AWS Lambda/API Gateway
+  \item Implemented Playwright E2E and automated CSV-to-database validation; added CI gates to block regressions
+  \item AWS X-Ray and CloudWatch for tracing; Serverless Framework and GitHub Actions for reproducible deploys
+  \item \textbf{Stack:} Python, React, AWS (Lambda, API Gateway, DynamoDB, CloudWatch, X-Ray), Serverless Framework, Playwright, PynamoDB
+\end{itemize}
+
+
+\roleline{Software Engineer in DevOps}{Submittable, Inc.}{(Missoula, MT)}{Sep 2019 -- Mar 2021}
+\emph{DevOps, Release Engineering, Production Operations}\par
+\begin{itemize}
+  \item Orchestrated SDLC and production releases via AWS CodePipeline; stabilized daily deploy cadence
+  \item Built test/prod environments with CloudFormation, Serverless Framework, Lambda, and EventBridge
+  \item Reduced deployment overhead approximately 30\% and moved from weekly to daily reliability-focused releases
+  \item \textbf{Stack:} AWS (CodePipeline, CloudFormation, Lambda, EventBridge, IAM, Route~53, CloudWatch), Pytest
+\end{itemize}
+
+
+\roleline{Co-Founder / CTO}{TOMIS, Inc.}{(Missoula, MT)}{Sep 2016 -- Jul 2019}
+\emph{Digital marketing and analytics SaaS platform for tour operators}\par
+\begin{itemize}
+  \item \textbf{Team Building:} Joined as the first engineer alongside the founder; grew the engineering organization to 50 by owning all hiring across backend, frontend, DevOps, QA, and data; built interview standards, onboarding pipelines, and engineering culture from scratch
+  \item \textbf{Technical Leadership:} Owned product design from executive vision through implementation; authored technical specs and delivery plans; led backend engineering for REST APIs (Python/Django); partnered with React teams on QA and key design decisions
+  \item \textbf{Engineering Management:} Scrum Master across sprint planning, standups, and retros; administered Jira and Confluence; managed branching strategy and release comms via Slack
+  \item \textbf{Site Reliability:} Production monitoring with Datadog and Honeycomb; exception reporting via Sentry; uptime and incident comms via UptimeRobot and Statuspage.io
+  \item \textit{Impact:} Built a SaaS platform from zero that automated workflows and delivered actionable analytics for tour operators; scaled engineering from 1 to 50
+  \item \textbf{Stack:} Python, Django, PostgreSQL, Bitbucket Pipelines, Jira, Confluence, Datadog, Honeycomb, Sentry
+\end{itemize}
+
+
+\roleline{Co-Founder / CTO}{dotmos, LLC}{}{Jul 2015 -- Jan 2017}
+\emph{Social and search aggregation product}\par
+\begin{itemize}
+  \item Co-founded and led all technical decisions; delivered core features on Django/Node/React stack; supported CI/CD and monitoring
+\end{itemize}
+
+
+\roleline{Data Scientist / Software Engineer}{Upstream Research, Inc.}{}{Nov 2015 -- Sep 2016}
+\emph{Data and research workflows}\par
+\begin{itemize}
+  \item Built ETL pipelines, reporting automation, internal dashboards, and ArcGIS geospatial layers from source datasets
+  \item \textbf{Stack:} Python, PostgreSQL, ArcGIS/ArcPy, Azure, ASP.NET MVC (C\#)
+\end{itemize}
+
+
+\section*{Additional Experience}
+\noindent\textbf{Security Consultant} at LMG Security \quad \textbf{Senior Software Developer} at Hanna-James Enterprises\par
+
+
+\section*{Education}
+\textbf{M.S., Computer Science (AI/ML emphasis)} — University of Montana\par
+\textbf{B.A., Psychology} — University of Montana \quad \emph{Minors: Mathematics, Media Arts}\par
+
+
+\section*{Technical Skills}
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Languages and Frameworks:} Python, TypeScript/JavaScript, Go, SQL, React, Next.js, Django, Flask
+  \item \textbf{Cloud and Infrastructure:} AWS (Lambda, API Gateway, DynamoDB, RDS, EC2/ELB, Route~53, IAM/ACM, CloudWatch/X-Ray, EventBridge), CloudFormation, Serverless Framework, Docker, Kubernetes
+  \item \textbf{Data and Pipelines:} PostgreSQL, Redis, Snowflake, ETL/ingestion, PynamoDB
+  \item \textbf{CI/CD and Quality:} GitHub Actions, AWS CodePipeline, Bitbucket Pipelines, Tox, Poetry, Pytest, Playwright
+  \item \textbf{AI and Automation:} Claude API, Claude Code, OpenAI API, Codex, GitHub Copilot (code review), MCP, n8n
+  \item \textbf{Product and Collaboration:} Jira, Linear, Confluence, GitHub Projects, Slack integrations
+\end{itemize}
+
+
+\end{document}
