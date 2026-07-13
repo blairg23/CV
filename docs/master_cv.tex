@@ -1,4 +1,4 @@
-% Me0wy Master Resume (AI + Data Infra + PM, Professional Focus)
+% Blair Gemmer: Master CV (full history; source material for the 2-page main resume and role-specific minis)
 
 
 \documentclass[10pt]{article}
@@ -11,6 +11,7 @@
 \usepackage{fancyhdr} % <-- fancy header/footer
 \setlist{nosep}
 \pagenumbering{gobble}
+\raggedbottom
 
 
 % ----- Headings -----
@@ -108,10 +109,30 @@ Self-taught, entrepreneurial software engineer and technical founder who builds 
 \roleline{CTO}{TOMIS, Inc.}{}{Sep 2016 - Jul 2019}
 \emph{Digital marketing and analytics platform}\par
 \begin{itemize}
-  \item \textbf{Technical Leadership:} Owned product design from executive vision through implementation; led backend engineering (Python/Django) partnering with React teams; researched emerging tech to de-risk roadmap bets.
-  \item \textbf{Process \& Ops:} Ran Scrum (Jira/Confluence, Bitbucket branching/CI); owned observability and incident response (Datadog, Honeycomb, Sentry, UptimeRobot, Statuspage.io).
+  \item \textbf{Technical Leadership:}
+    \begin{itemize}[leftmargin=*,label=--]
+      \item Owned product design from executive vision through technical implementation; authored detailed technical specifications and delivery plans.
+      \item Led backend engineering for REST APIs (Python/Django); partnered with React teams on QA and key design decisions.
+      \item Researched emerging tech; built prototypes and proofs-of-concept to de-risk roadmap bets.
+    \end{itemize}
+  \item \textbf{Project Management:}
+    \begin{itemize}[leftmargin=*,label=--]
+      \item Scrum Master: sprint planning, daily standups, retros; administered Jira (boards, workflows, triage) and Confluence docs.
+      \item Managed Bitbucket repos and branching strategy; integrated Slack for release comms and team coordination.
+      \item Authored release notes from Jira releases using Confluence templates; prioritized epics using Jira Next-Gen Kanban.
+    \end{itemize}
+  \item \textbf{DevOps:}
+    \begin{itemize}[leftmargin=*,label=--]
+      \item Enforced commit quality and code review processes; maintained feature/release/hotfix branching hygiene.
+      \item Implemented Bitbucket Pipelines for automated testing on feature branches; tracked bugs/feedback with Usersnap.
+    \end{itemize}
+  \item \textbf{Site Reliability \& Observability:}
+    \begin{itemize}[leftmargin=*,label=--]
+      \item Production monitoring and tracing with Datadog \& Honeycomb; centralized logging and infra monitoring with Stackdriver/Datadog.
+      \item Exception reporting via Sentry (with Jira integration); uptime and incident comms via UptimeRobot and Statuspage.io.
+    \end{itemize}
   \item \textit{Impact:} Spearheaded a SaaS platform for tour operators that automated workflows and delivered actionable analytics.
-  \item \textbf{Stack:} Python, Django, PostgreSQL, Bitbucket Pipelines, Jira/Confluence, Datadog/Honeycomb/Sentry.
+  \item \textbf{Stack:} Python, Django, PostgreSQL; Bitbucket Pipelines; Jira, Confluence, Slack; Datadog, Honeycomb, Stackdriver, Sentry; Usersnap; UptimeRobot, Statuspage.io.
 \end{itemize}
 
 
@@ -119,17 +140,21 @@ Self-taught, entrepreneurial software engineer and technical founder who builds 
 \emph{Social/search aggregation product \& consulting}\par
 \begin{itemize}
   \item Product/architecture for Django/Node/React stack; delivered core features and integrations; supported CI/CD and monitoring.
+  \item \textbf{Stack:} Python/JavaScript, Django/Node/React, SQL; AWS/GCP (as applicable); CI/CD.
 \end{itemize}
 
 
 \roleline{Data Scientist / Software Engineer}{Upstream Research, Inc.}{}{Nov 2015 - Sep 2016}
 \emph{Data and research workflows}\par
 \begin{itemize}
-  \item Built ETL pipelines generating ArcGIS layers and automated reporting/dashboards from research datasets.
+  \item Implemented data processing automation and reporting pipelines; built internal dashboards/APIs.
+  \item Built an ETL pipeline to generate ArcGIS layers from source datasets for geospatial visualization and analysis.
+  \item \textbf{Stack:} Python, PostgreSQL, ETL tooling, Azure (admin), REST APIs; ArcGIS/ArcPy; ASP.NET MVC (C\#).
 \end{itemize}
 
 
 \section*{Additional Experience}
+\noindent\textbf{Security Consultant} \textit{at} LMG Security\par
 \noindent\textbf{Senior Software Developer} \textit{at} Hanna-James Enterprises
 
 
